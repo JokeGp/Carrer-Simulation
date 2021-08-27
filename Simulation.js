@@ -19,7 +19,7 @@ class Chalenger{
     this.dice = new Dice;
   }
   
-  run(){
+ run(){
     return this.position += this.dice.launch();
   }
   
